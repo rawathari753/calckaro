@@ -279,7 +279,10 @@ export default function ChatBot() {
               sx={{
                 '& .MuiOutlinedInput-root': {
                   borderRadius: 3,
-                  fontSize: 14,
+                  fontSize: 16,
+                },
+                '& .MuiOutlinedInput-input': {
+                  fontSize: 16,
                 },
               }}
             />
